@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Mogra&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  animation: gradientAnimation 10s linear infinite alternate-reverse;
 }
 body {
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
   color: white;
-  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  background: linear-gradient(45deg, #4158D0 0%, #C850C0 50%, #FFCC70 100%);
 }
 
 .app {
@@ -63,7 +66,7 @@ body {
 }
 .form .form_button {
   width: 100px;
-  height: 30px;
+  height: 35px;
   background: #4158B0;
   border: none;
   outline: none;
@@ -71,6 +74,11 @@ body {
   cursor: pointer;
   margin-bottom: 3rem;
   border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.form_button:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.08);
 }
 
 .download_btn {
