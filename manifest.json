@@ -1,7 +1,7 @@
 {
     "name": "YouTube to MP3 Converter",
     "short_name": "YT2MP3",
-    "start_url": "index.html",
+    "start_url": "https://yt-mp3-converter.vercel.app/",
     "scope": "./",
     "icons": [
       {
