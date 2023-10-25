@@ -47,10 +47,11 @@ function App() {
         {urlResult ? <a target='_blank' rel="noreferrer" href={urlResult} className="download_btn">Download MP3</a> : ''}
         
       </section>
-    </div>
-    <div class="banner">
+      <div class="banner">
         Made with 💖 in Romania
+      </div>
     </div>
+    
   )
 }
 
