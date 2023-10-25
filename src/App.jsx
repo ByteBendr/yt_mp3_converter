@@ -48,6 +48,9 @@ function App() {
         
       </section>
     </div>
+    <div class="banner">
+        Made with 💖 in Romania
+    </div>
   )
 }
 
